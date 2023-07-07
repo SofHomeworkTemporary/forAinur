@@ -17,4 +17,4 @@ spring:
       password: '{cipher}fe58c020bf08f937b42547d0eb1329a5ecbd3b8c23505297fb0cabea5f8b26b078da31ebb3e1d81d994bec112057b988'
 
 encrypt:
-  key: ${JASYPT_ENCRYPTOR_PASSWORD}
+  key: ${ENCRYPT_KEY}
