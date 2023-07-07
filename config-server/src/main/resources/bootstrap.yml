@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SofHomeworkTemporary/spring-cloud-config-server-repository.git
+          clone-on-start: true
+          username: sofi.chan.git@gmail.com
+          password: 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
+          default-label: main
+    fail-fast: true
+  security:
+    user:
+      name: spring_cloud_user
+      password: springCloud_pwd!
