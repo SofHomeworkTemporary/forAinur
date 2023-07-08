@@ -8,7 +8,7 @@ spring:
           uri: https://github.com/SofHomeworkTemporary/spring-cloud-config-server-repository.git
           clone-on-start: true
           username: sofi.chan.git@gmail.com
-          password: '{cipher}5c19a8ce9f3a2a24addcaca2c532804d763fa1a5ac707ad6523451528a839f530f607d11b30f8f4beb6f84187eaaa0b4b52eebe6d5bb335629e2aa27d454fcf0'
+          password: '{cipher}80b86d6c74bc53b89b79fbff0e8966cba04e90dcc14fe1fef609e0bbf2a1f2a1aef4713a96592c1f6662ac026950d3b795b76e8b9328b60c8014863ef84f70d0'
           default-label: main
     fail-fast: true
   security:
